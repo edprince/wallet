@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "default": "wallet-f95c6",
+    "staging": "wallet-f95c6"
+  }
+}

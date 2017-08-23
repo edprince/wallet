@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,900" rel="stylesheet">
+    <link href='css/main.css' type='text/css' rel='stylesheet'>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <!--app content-->
+    <nav>
+      <a><h2>Wallet</h2></a>
+      <a class='align-right font-large' alt='Add new card'>+</a>
+    </nav>
+    <div class='container'>
+      <div class='addTile' id='add-card'>
+        <table>
+          <tr>
+            <td id='attribute-key'>
+              <p class='left-align'>Name of card</p>
+            </td>
+            <td id='attribute-value'>
+              <input class='align-right' type='text' id='name' />
+            </td>
+          </tr>
+        </table>
+        <a id='add-attribute'class='font-large' alt='Add new card'>+</a>
+        <br />
+        <button class='center'>Save</button>
+      </div>
+    </div>
+  </body>
+  <script src="https://www.gstatic.com/firebasejs/4.3.0/firebase.js"></script>
+  <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyDuzrwZiqEQRuKxKA0IjGmu8eK1be3LcNE",
+      authDomain: "wallet-f95c6.firebaseapp.com",
+      databaseURL: "https://wallet-f95c6.firebaseio.com",
+      projectId: "wallet-f95c6",
+      storageBucket: "",
+      messagingSenderId: "239219206767"
+    };
+    firebase.initializeApp(config);
+  </script>
+  <script src='js/app.js'></script>
+</html>

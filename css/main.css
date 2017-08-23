@@ -1,0 +1,99 @@
+* {
+ font-family: 'Poppins', sans-serif;
+ color: white;
+} 
+
+body {
+  background: #4DB6AC;
+  padding: 0;
+  margin: 0;
+  max-width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 900;
+}
+
+p {
+  font-weight: 300;
+}
+
+input {
+  background: #00796B;
+  border-radius: 5px;
+  border: 0;
+  height: 2em;
+  max-width: 100%;
+  width: 100%;
+  padding-left: 5px;
+}
+
+input::-webkit-input-placeholder {
+  color: #bfbfbf;
+}
+
+button {
+  background: #E0F2F1;
+  color: #00796B;
+  margin: 0 auto;
+  display: block;
+  border: 0;
+  padding: 1em;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+}
+
+table {
+  max-width: 100%;
+}
+
+td {
+  max-width: 50%;
+  width: 50%;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.font-large {
+  font-size: 2.5em;
+}
+
+.fixed {
+  position: absolute;
+}
+
+.top-right {
+  top: 0;
+  right: .5em;
+}
+
+nav a {
+  display: inline-block;
+}
+
+.align-right {
+  float: right;
+}
+
+.align-left {
+  float: left;
+}
+
+nav {
+  background: #00796B;
+  margin: 0;
+  width: 100%;
+  padding-left: .5em;
+  padding-right: .5em;
+  box-sizing: border-box;
+}
+
+.addTile input {
+  display: inline-block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+

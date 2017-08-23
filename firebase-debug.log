@@ -1,0 +1,28 @@
+[debug] [2017-08-23T02:30:13.619Z] ----------------------------------------------------------------------
+[debug] [2017-08-23T02:30:13.622Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2017-08-23T02:30:13.622Z] CLI Version:   3.9.2
+[debug] [2017-08-23T02:30:13.622Z] Platform:      linux
+[debug] [2017-08-23T02:30:13.623Z] Node Version:  v8.4.0
+[debug] [2017-08-23T02:30:13.623Z] Time:          Wed Aug 23 2017 03:30:13 GMT+0100 (BST)
+[debug] [2017-08-23T02:30:13.623Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-08-23T02:30:13.633Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-08-23T02:30:13.633Z] > authorizing via signed-in user
+[debug] [2017-08-23T02:30:13.635Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/wallet-f95c6  
+ Wed Aug 23 2017 03:30:13 GMT+0100 (BST)
+[debug] [2017-08-23T02:30:14.346Z] <<< HTTP RESPONSE 200
+[debug] [2017-08-23T02:30:14.347Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/wallet-f95c6/tokens  
+ Wed Aug 23 2017 03:30:14 GMT+0100 (BST)
+[debug] [2017-08-23T02:30:15.050Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/home/ed/dev/wallet'...
+[info] 
+[debug] [2017-08-23T02:30:15.057Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/wallet-f95c6  
+ Wed Aug 23 2017 03:30:15 GMT+0100 (BST)
+[debug] [2017-08-23T02:30:15.799Z] <<< HTTP RESPONSE 200
+[debug] [2017-08-23T02:30:15.800Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/239219206767/clients/_:getWebAppConfig  
+ Wed Aug 23 2017 03:30:15 GMT+0100 (BST)
+[debug] [2017-08-23T02:30:16.280Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: ./
+[info] ✔  hosting: Local server: http://localhost:5000
+
