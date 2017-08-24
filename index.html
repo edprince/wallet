@@ -13,19 +13,15 @@
     </nav>
     <div class='container'>
       <div class='addTile' id='add-card'>
-        <table>
-          <tr>
-            <td id='attribute-key'>
-              <p class='left-align'>Name of card</p>
-            </td>
-            <td id='attribute-value'>
-              <input class='align-right' type='text' id='name' />
-            </td>
-          </tr>
-        </table>
-        <a id='add-attribute'class='font-large' alt='Add new card'>+</a>
-        <br />
-        <button class='center'>Save</button>
+        <input class='align-right' type='text' placeholder='Name of card' id='name' />
+        <div class='row'>
+          <div class="column column-6" id='key-attribute'>
+          </div>
+          <div class="column column-6" id='value-attribute'>
+          </div>
+        </div>
+        <button id='add-attribute' alt='Add new card'>Add field</button>
+        <button id='save-button' class='bottom center'>Save</button>
       </div>
     </div>
   </body>

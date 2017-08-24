@@ -22,9 +22,9 @@ input {
   background: #00796B;
   border-radius: 5px;
   border: 0;
-  height: 2em;
+  height: 3em;
   max-width: 100%;
-  width: 100%;
+  width: 90%;
   padding-left: 5px;
 }
 
@@ -35,12 +35,20 @@ input::-webkit-input-placeholder {
 button {
   background: #E0F2F1;
   color: #00796B;
-  margin: 0 auto;
   display: block;
   border: 0;
   padding: 1em;
   padding-left: 1.5em;
   padding-right: 1.5em;
+}
+
+.center {
+  margin: 0 auto;
+}
+
+.bottom {
+  bottom: 0;
+  position: absolute;
 }
 
 table {
@@ -97,3 +105,14 @@ nav {
   margin-bottom: 1em;
 }
 
+.row .column {
+  display: inline-block;
+}
+
+.row {
+  margin: 0 auto;
+  text-align: center;
+}
+.column-6 {
+  width: 49%; 
+}
